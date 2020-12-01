@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Understanding Properties and their values</title>
+     <style>
+         .division {
+            border: 0px black solid;
+            height: 100px;
+            width: 100px;
+            background: orange;
+            border-radius: 100%;
+            position: absolute;
+            animation: animation-1 5s infinite;
+        }
+        
+        /* Animation */
+        @keyframes animation-1 {
+            0% {top: 0px; left: 0px;}
+            25% {top: 0px; left: 500px;background: deeppink}
+            50% {top: 300px; left: 500px; background: red;}
+            75% { top: 300px; left: 0px; background: purple;}
+            100% {top: 0px; left:0px;}
+        }
+    </style>
+    <style>
+        
+    </style>
+</head>
+    <body>
+        <h1>MY FIRST ANIMATION USING CSS</h1>
+        <div class="division"></div>
+    </body>
+</html>
